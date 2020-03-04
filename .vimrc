@@ -39,6 +39,6 @@ let g:ycm_use_clangd=0
 let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
 let g:ycm_add_preview_to_completeopt=0
 let NERDTreeShowHidden=1
-let NERDTreeIgnore=['\.swo$', '\.swp$', '\.aux$', '\.bbl$', '\.blg$', '\.dvi$', '\.fdb_latexmk$', '\.fls$']
+let NERDTreeIgnore=['\.swo$', '\.swp$', '\.aux$', '\.bbl$', '\.blg$', '\.dvi$', '\.fdb_latexmk$', '\.fls$', '\.d$', '\.o$']
 
 colorscheme molokai
