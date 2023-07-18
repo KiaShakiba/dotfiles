@@ -1,0 +1,24 @@
+[[language]]
+name = "rust"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "git", args = ["stripspace"] }
+
+[[language]]
+name = "c"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "git", args = ["stripspace"] }
+
+[[language]]
+name = "cpp"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "git", args = ["stripspace"] }
+
+[[language]]
+name = "javascript"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "git", args = ["stripspace"] }
+
+[[language]]
+name = "typescript"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "git", args = ["stripspace"] }
