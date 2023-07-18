@@ -1,5 +1,8 @@
 theme = "molokai"
 
+[editor]
+scrolloff = 999
+
 [keys.normal]
 # Some nice Helix stuff
 C-h = "select_prev_sibling"

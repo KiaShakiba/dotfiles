@@ -2,6 +2,8 @@
 name = "rust"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "git", args = ["stripspace"] }
+[language-server.rust-analyzer.config.check]
+command = "clippy"
 
 [[language]]
 name = "c"
