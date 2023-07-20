@@ -1,4 +1,4 @@
-theme = "autumn_night"
+theme = "molokai"
 
 [editor]
 scrolloff = 999
