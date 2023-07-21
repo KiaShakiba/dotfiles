@@ -9,3 +9,6 @@ vim.opt.shiftwidth = 4
 vim.opt.so = 999
 vim.opt.completeopt = "menuone,noinsert,noselect"
 vim.opt.wrap = false
+vim.opt.mouse = ""
+
+vim.keymap.set("n", "<esc>", ":noh<return><esc>")
