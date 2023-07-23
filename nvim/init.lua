@@ -1,5 +1,7 @@
 require("plugins")
 
+vim.opt.guicursor = ""
+
 vim.opt.number = true
 vim.opt.cursorline = true
 vim.opt.tabstop = 4
