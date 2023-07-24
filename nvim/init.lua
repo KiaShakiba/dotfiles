@@ -18,3 +18,8 @@ vim.g.rust_recommended_style = false
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+
+vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+	pattern = { "*" },
+	command = [[%s/\s\+$//e]],
+});
