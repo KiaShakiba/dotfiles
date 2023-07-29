@@ -30,4 +30,4 @@ require("nvim-tree").setup({
 	on_attach = handle_attach,
 })
 
-vim.cmd("autocmd VimEnter * NvimTreeOpen")
+vim.cmd("autocmd VimEnter * if !argc() | NvimTreeOpen | endif")
