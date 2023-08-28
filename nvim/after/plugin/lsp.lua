@@ -28,7 +28,7 @@ cmp.setup({
 	mapping = {
 		["<S-j>"] = cmp.mapping.select_next_item(),
 		["<S-k>"] = cmp.mapping.select_prev_item(),
-		["<S-i>"] = cmp.mapping.confirm({ select = true }),
+		["<Tab>"] = cmp.mapping.confirm({ select = true }),
 	}
 })
 
