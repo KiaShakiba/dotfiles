@@ -27,6 +27,9 @@ cmp.setup({
 	sources = {
 		{ name = "nvim_lsp" },
 	},
+
+	preselect = cmp.PreselectMode.None,
+
 	mapping = {
 		["<S-Tab>"] = cmp.mapping.select_prev_item(),
 		["<Tab>"] = cmp.mapping.select_next_item(),
