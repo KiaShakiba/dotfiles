@@ -1,3 +1,3 @@
 require("monokai").setup({
-	palette = require('monokai').soda
+	palette = require("monokai").soda
 })
