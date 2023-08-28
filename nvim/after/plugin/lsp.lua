@@ -28,9 +28,8 @@ cmp.setup({
 		{ name = "nvim_lsp" },
 	},
 	mapping = {
-		["<S-j>"] = cmp.mapping.select_next_item(),
-		["<S-k>"] = cmp.mapping.select_prev_item(),
-		["<Tab>"] = cmp.mapping.confirm({ select = true }),
+		["<S-Tab>"] = cmp.mapping.select_prev_item(),
+		["<Tab>"] = cmp.mapping.select_next_item(),
 	}
 })
 
