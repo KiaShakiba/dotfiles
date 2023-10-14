@@ -14,7 +14,7 @@ return require("packer").startup(function(use)
 		},
 	}
 
-	use("nvim-treesitter/nvim-treesitter", {run = ":TSUpdate"})
+	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 
 	use {
 		"VonHeikemen/lsp-zero.nvim",
@@ -37,5 +37,13 @@ return require("packer").startup(function(use)
 				text = { spinner = "dots" }
 			}
 		end,
+	}
+
+	use {
+		"nvim-lualine/lualine.nvim",
+		requires = {
+			"nvim-tree/nvim-web-devicons",
+			opt = true
+		}
 	}
 end)
