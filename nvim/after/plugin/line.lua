@@ -131,6 +131,24 @@ push_left {
 }
 
 push_left {
+	"diff",
+
+	symbols = {
+		added = " ",
+		modified = "󰝤 ",
+		removed = " ",
+	},
+
+	diff_color = {
+		added = { fg = colors.green },
+		modified = { fg = colors.orange },
+		removed = { fg = colors.red },
+	},
+
+	cond = conditions.has_large_width,
+}
+
+push_left {
 	"filename",
 	cond = conditions.buffer_not_empty,
 }
@@ -211,24 +229,6 @@ push_right {
 	fmt = string.upper,
 	icons_enabled = false,
 	color = { fg = colors.green, gui = "bold" },
-	cond = conditions.has_large_width,
-}
-
-push_right {
-	"diff",
-
-	symbols = {
-		added = " ",
-		modified = "󰝤 ",
-		removed = " ",
-	},
-
-	diff_color = {
-		added = { fg = colors.green },
-		modified = { fg = colors.orange },
-		removed = { fg = colors.red },
-	},
-
 	cond = conditions.has_large_width,
 }
 
