@@ -28,4 +28,14 @@ return require("packer").startup(function(use)
 			{"L3MON4D3/LuaSnip"},
 		}
 	}
+
+	use {
+		"j-hui/fidget.nvim",
+		tag = "legacy",
+		config = function()
+			require("fidget").setup {
+				text = { spinner = "dots" }
+			}
+		end,
+	}
 end)
