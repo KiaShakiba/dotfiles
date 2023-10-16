@@ -1,8 +1,10 @@
-local lsp = require("lsp-zero").preset({
+local lsp_zero = require("lsp-zero")
+
+local lsp = lsp_zero.preset({
 	sign_icons = {}
 })
 
-require("lsp-zero").extend_cmp()
+lsp_zero.extend_cmp()
 
 require("mason-lspconfig").setup {
 	ensure_installed = {
@@ -16,10 +18,12 @@ require("mason-lspconfig").setup {
 }
 
 lsp.on_attach(function(_, bufnr)
-	lsp.default_keymaps({buffer = bufnr})
+	lsp.default_keymaps({ buffer = bufnr })
 end)
 
-require("lspconfig").lua_ls.setup(lsp.nvim_lua_ls())
+local lspconfig = require("lspconfig")
+
+lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
 local cmp = require("cmp")
 
