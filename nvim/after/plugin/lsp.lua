@@ -14,6 +14,7 @@ require("mason-lspconfig").setup {
 		"eslint",
 		"clangd",
 		"gopls",
+		"pyright",
 	},
 }
 
