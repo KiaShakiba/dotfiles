@@ -15,7 +15,10 @@ vim.opt.mouse = ""
 vim.opt.expandtab = false
 vim.opt.autoindent = true
 vim.opt.smartindent = true
+
 vim.g.rust_recommended_style = false
+vim.g.python_recommended_style = 0
+vim.o.expandtab = false
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
