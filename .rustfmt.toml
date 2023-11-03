@@ -4,8 +4,11 @@ max_width = 80
 array_width = 25
 chain_width = 50
 
-match_block_trailing_comma = true
 imports_granularity = "Crate"
+imports_layout = "HorizontalVertical"
+group_imports = "StdExternalCrate"
+
+match_block_trailing_comma = true
 overflow_delimited_expr = true
 struct_lit_single_line = false
 use_field_init_shorthand = true
