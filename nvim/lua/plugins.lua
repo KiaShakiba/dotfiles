@@ -14,6 +14,14 @@ return require("packer").startup(function(use)
 		},
 	}
 
+	use {
+		"nvim-telescope/telescope.nvim",
+		tag = "0.1.5",
+		requires = {
+			{"nvim-lua/plenary.nvim"},
+		}
+	}
+
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 
 	use {
@@ -31,7 +39,7 @@ return require("packer").startup(function(use)
 
 	use {
 		"j-hui/fidget.nvim",
-		tag = "legacy",
+		tag = "v1.0.0",
 		config = function()
 			require("fidget").setup {
 				text = { spinner = "dots" }

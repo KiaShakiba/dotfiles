@@ -2,6 +2,9 @@ require("plugins")
 
 vim.opt.guicursor = ""
 
+vim.keymap.set("n", "<Space>", "<Nop>", { silent = true, remap = false })
+vim.g.mapleader = " "
+
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
