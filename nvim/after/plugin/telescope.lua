@@ -6,6 +6,8 @@ telescope.setup {
 		file_ignore_patterns = {
 			"target",
 			"node_modules",
+			"%.pdf",
+			"%.bin",
 		}
 	}
 }
