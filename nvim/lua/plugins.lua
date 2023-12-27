@@ -19,6 +19,7 @@ return require("packer").startup(function(use)
 		tag = "0.1.5",
 		requires = {
 			{"nvim-lua/plenary.nvim"},
+			{"nvim-tree/nvim-web-devicons"},
 		}
 	}
 
