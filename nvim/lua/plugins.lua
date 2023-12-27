@@ -42,7 +42,11 @@ return require("packer").startup(function(use)
 		tag = "v1.0.0",
 		config = function()
 			require("fidget").setup {
-				text = { spinner = "dots" }
+				progress = {
+					display = {
+						progress_icon = { pattern = "dots" }
+					}
+				}
 			}
 		end,
 	}
