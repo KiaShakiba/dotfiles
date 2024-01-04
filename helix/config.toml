@@ -3,6 +3,7 @@ theme = "molokai"
 [editor]
 scrolloff = 999
 mouse = false
+line-number = "relative"
 
 [keys.normal]
 # Some nice Helix stuff
