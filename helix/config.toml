@@ -4,6 +4,7 @@ theme = "molokai"
 scrolloff = 999
 mouse = false
 line-number = "relative"
+cursorline = true
 
 [keys.normal]
 # Some nice Helix stuff
