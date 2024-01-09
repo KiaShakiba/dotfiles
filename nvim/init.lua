@@ -26,10 +26,6 @@ vim.o.expandtab = false
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.diagnostic.config({
-	virtual_text = false,
-})
-
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
 	pattern = { "*" },
 	command = [[%s/\s\+$//e]],
