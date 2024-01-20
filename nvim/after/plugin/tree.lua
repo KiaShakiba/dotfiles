@@ -13,13 +13,15 @@ local function handle_attach(bufnr)
 	api.config.mappings.default_on_attach(bufnr)
 
 	vim.keymap.set("n", "s", api.node.open.vertical, opts("Open: Vertical Split"));
-
 end
 
 require("nvim-tree").setup({
 	sort_by = "case_sensitive",
 	view = {
 		width = 30,
+		float = {
+			enable = true
+		}
 	},
 	renderer = {
 		group_empty = true,
@@ -27,7 +29,12 @@ require("nvim-tree").setup({
 	filters = {
 		dotfiles = false,
 	},
+	actions = {
+		open_file = {
+			quit_on_open = true
+		}
+	},
 	on_attach = handle_attach,
 })
 
-vim.cmd("autocmd VimEnter * if !argc() | NvimTreeOpen | endif")
+vim.keymap.set("n", "<leader>ft", ":NvimTreeOpen<CR>");
