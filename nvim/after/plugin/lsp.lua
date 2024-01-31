@@ -26,6 +26,18 @@ local lspconfig = require("lspconfig")
 
 lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
+lspconfig.rust_analyzer.setup {
+	capabilities = {
+		textDocument = {
+			completion = {
+				completionItem = {
+					snippetSupport = false
+				}
+			}
+		}
+	}
+}
+
 local cmp = require("cmp")
 
 cmp.setup({
