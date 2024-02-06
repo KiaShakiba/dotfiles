@@ -18,9 +18,13 @@ end
 require("nvim-tree").setup({
 	sort_by = "case_sensitive",
 	view = {
-		width = 30,
+		width = 80,
 		float = {
-			enable = true
+			enable = true,
+			open_win_config = {
+				relative = "editor",
+				width = 100
+			}
 		}
 	},
 	renderer = {

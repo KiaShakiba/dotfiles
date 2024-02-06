@@ -4,11 +4,13 @@ local builtin = require("telescope.builtin")
 telescope.setup {
 	defaults = {
 		file_ignore_patterns = {
-			"target",
-			"node_modules",
-			"build",
 			"%.pdf",
 			"%.bin",
+			"/target/",
+			"/node_modules/",
+			"/build/",
+			"/dist/",
+			"/tmux/plugins",
 		}
 	}
 }
