@@ -12,6 +12,7 @@ telescope.setup {
 			"/dist/",
 			"/tmux/plugins",
 			"/extern/",
+			"/__pycache__/",
 		}
 	}
 }
