@@ -11,6 +11,7 @@ telescope.setup {
 			"/build/",
 			"/dist/",
 			"/tmux/plugins",
+			"/extern/",
 		}
 	}
 }
