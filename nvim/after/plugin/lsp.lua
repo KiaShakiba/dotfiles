@@ -15,7 +15,6 @@ require("mason-lspconfig").setup {
 		"clangd",
 		"gopls",
 		"pyright",
-		"jdtls",
 	},
 }
 
