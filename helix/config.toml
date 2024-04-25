@@ -7,6 +7,14 @@ line-number = "relative"
 cursorline = true
 auto-format = false
 
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "spacer", "version-control"]
+right = ["diagnostics", "position"]
+
+[editor.lsp]
+display-messages = true
+snippets = false
+
 [keys.normal]
 C-h = "select_prev_sibling"
 C-j = "shrink_selection"
