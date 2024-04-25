@@ -30,3 +30,13 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
 	pattern = { "*" },
 	command = [[%s/\s\+$//e]],
 })
+
+vim.api.nvim_create_autocmd({ "InsertEnter" }, {
+	pattern = { "*" },
+	command = "set norelativenumber",
+})
+
+vim.api.nvim_create_autocmd({ "InsertLeave" }, {
+	pattern = { "*" },
+	command = "set relativenumber",
+})
