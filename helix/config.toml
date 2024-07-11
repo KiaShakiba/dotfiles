@@ -8,8 +8,9 @@ cursorline = true
 auto-format = false
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "spacer", "version-control"]
-right = ["diagnostics", "position"]
+left = ["mode", "spacer", "version-control"]
+right = ["diagnostics", "position", "total-line-numbers", "spinner", "spacer"]
+center = ["file-name", "read-only-indicator", "file-modification-indicator"]
 
 [editor.lsp]
 display-messages = true
