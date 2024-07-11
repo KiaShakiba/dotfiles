@@ -1,0 +1,12 @@
+!.git/
+
+# Rust
+/target/
+
+# Node
+package-lock.json
+/node_modules/
+/build/
+
+# C/C++
+/extern/
