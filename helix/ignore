@@ -1,4 +1,13 @@
+# Git
 !.git/
+
+# Invalid files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bin
+*.pdf
 
 # Rust
 /target/
