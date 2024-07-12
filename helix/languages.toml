@@ -26,6 +26,16 @@ indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "git", args = ["stripspace"] }
 
 [[language]]
+name = "tsx"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "git", args = ["stripspace"] }
+
+[[language]]
+name = "jsx"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "git", args = ["stripspace"] }
+
+[[language]]
 name = "bash"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "git", args = ["stripspace"] }
