@@ -2,7 +2,7 @@ local monokai = require("monokai")
 local palette = monokai.soda
 
 monokai.setup {
-	palette,
+	palette = palette,
 	custom_hlgroups = {
 		GitSignsAdd = {
 			fg = palette.green,
