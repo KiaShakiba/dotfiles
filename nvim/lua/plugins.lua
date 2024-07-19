@@ -16,7 +16,7 @@ return require("packer").startup(function(use)
 
 	use {
 		"nvim-telescope/telescope.nvim",
-		tag = "0.1.5",
+		tag = "0.1.8",
 		requires = {
 			{"nvim-lua/plenary.nvim"},
 			{"nvim-tree/nvim-web-devicons"},
@@ -27,7 +27,7 @@ return require("packer").startup(function(use)
 
 	use {
 		"VonHeikemen/lsp-zero.nvim",
-		branch = "v2.x",
+		branch = "v3.x",
 		requires = {
 			{"neovim/nvim-lspconfig"},
 			{"williamboman/mason.nvim"},
@@ -40,7 +40,7 @@ return require("packer").startup(function(use)
 
 	use {
 		"j-hui/fidget.nvim",
-		tag = "v1.0.0",
+		tag = "v1.4.5",
 		config = function()
 			require("fidget").setup {
 				progress = {

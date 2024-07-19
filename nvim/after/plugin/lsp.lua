@@ -1,3 +1,5 @@
+require("mason").setup()
+
 local lsp_zero = require("lsp-zero")
 
 local lsp = lsp_zero.preset({
