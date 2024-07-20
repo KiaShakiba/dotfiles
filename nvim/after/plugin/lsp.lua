@@ -40,6 +40,8 @@ lspconfig.rust_analyzer.setup {
 	}
 }
 
+lspconfig.tsserver.setup({})
+
 local cmp = require("cmp")
 
 cmp.setup({
