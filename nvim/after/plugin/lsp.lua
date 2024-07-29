@@ -41,6 +41,10 @@ lspconfig.rust_analyzer.setup {
 }
 
 lspconfig.tsserver.setup({})
+lspconfig.eslint.setup({})
+lspconfig.clangd.setup({})
+lspconfig.gopls.setup({})
+lspconfig.pyright.setup({})
 
 local cmp = require("cmp")
 
