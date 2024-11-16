@@ -5,7 +5,7 @@ scrolloff = 999
 mouse = false
 line-number = "relative"
 cursorline = true
-auto-format = false
+auto-format = true
 
 [editor.statusline]
 left = ["mode", "spacer", "version-control"]
