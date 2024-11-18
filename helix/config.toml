@@ -23,6 +23,7 @@ snippets = false
 [keys.normal]
 X = ["extend_line_above"]
 C = ["collapse_selection", "extend_to_line_end", "delete_selection", "insert_mode"]
+esc = ["collapse_selection"]
 
 [keys.normal.space]
 f = "file_picker_in_current_directory"
