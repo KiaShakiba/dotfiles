@@ -11,12 +11,16 @@
 
 # Rust
 /target/
+Cargo.lock
 
 # Node
 package-lock.json
 /node_modules/
 /build/
 /public/
+
+# NextJS
+/out/
 
 # C/C++
 /extern/
