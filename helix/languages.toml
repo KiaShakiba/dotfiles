@@ -43,6 +43,24 @@ formatter = { command = "sed", args = ["s/[ \t]*$//"] }
 auto-format = true
 
 [[language]]
+name = "html"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "sed", args = ["s/[ \t]*$//"] }
+auto-format = true
+
+[[language]]
+name = "css"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "sed", args = ["s/[ \t]*$//"] }
+auto-format = true
+
+[[language]]
+name = "scss"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "sed", args = ["s/[ \t]*$//"] }
+auto-format = true
+
+[[language]]
 name = "bash"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "sed", args = ["s/[ \t]*$//"] }
