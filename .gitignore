@@ -1,3 +1,4 @@
-nvim/plugin
 tmux/plugins
+yazi/flavors
+nvim/plugin
 .vim/bundle/*
