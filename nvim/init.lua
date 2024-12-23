@@ -26,6 +26,9 @@ vim.o.expandtab = false
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
+vim.keymap.set("v", "<", "<gv", { noremap = true });
+vim.keymap.set("v", ">", ">gv", { noremap = true });
+
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
 	pattern = { "*" },
 	command = [[%s/\s\+$//e]],
