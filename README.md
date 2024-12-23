@@ -40,7 +40,7 @@ sudo mv ./nvim.appimage /usr/local/bin/nvim
 sudo chmod u+x /usr/local/bin/nvim
 ```
 
-# Install yazi
+### Install yazi
 `cargo install --locked yazi-fm yazi-cli`
 
 Add shell wrapper for `y` to `.bashrc`:
