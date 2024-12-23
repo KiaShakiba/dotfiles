@@ -32,7 +32,7 @@ sudo chmod u+x /usr/local/bin/hx
 
 ### Install nvim
 Download AppImage from:
-`https://github.com/neovim/neovim/releases/latest/nvim.appimage`
+`https://github.com/neovim/neovim/releases/latest/download/nvim.appimage`
 
 Then run:
 ```
