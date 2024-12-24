@@ -40,6 +40,9 @@ sudo mv ./nvim.appimage /usr/local/bin/nvim
 sudo chmod u+x /usr/local/bin/nvim
 ```
 
+### Install fzf
+`sudo apt install fzf`
+
 ### Install yazi
 `cargo install --locked yazi-fm yazi-cli`
 
