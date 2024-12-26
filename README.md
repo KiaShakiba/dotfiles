@@ -61,6 +61,13 @@ function y() {
 Install theme:
 `ya pack -a sanjinso/monokai-vibrant`
 
+### Install LSPs
+
+#### rust_analyzer
+```
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz | zcat | sudo tee ~/.local/bin/rust-analyzer >/dev/null
+```
+
 ### Link the configuration directories
 ```
 ln -s /path/to/dotfiles/tmux ~/.config/tmux
