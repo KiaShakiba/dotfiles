@@ -26,3 +26,13 @@ package-lock.json
 
 # C/C++
 /extern/
+
+# LaTeX
+*.aux
+*.bcf
+*.lof
+*.lot
+*.toc
+*.run.xml
+*.bbl
+*.blg
