@@ -1,5 +1,5 @@
 # dotfiles
-My dotfiles
+My dotfiles (and extra tools)
 
 ## Installation
 ### Prepare dirs
@@ -73,15 +73,22 @@ curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust
 cargo install --git https://github.com/latex-lsp/texlab --locked --tag <insert version here>
 ```
 
-#### typos-lsp
-Download latest release from:
-[typos-lsp releases](https://github.com/tekumara/typos-lsp/releases)
+#### cspell-lsp
+Install Bun:
+`curl -fsSL https://bun.sh/install | bash`
+
+Clone `cspell-lsp` from
+[cspell-lsp](https://github.com/vlabo/cspell-lsp)
 
 Then run
 ```
-tar -xvzf ./typos-lsp-*.tar.gz
-chmod +x ./typos-lsp
-sudo mv ./typos-lsp ~/.local/bin/
+npm i vscode-languageserver
+npm i readline
+npm i vscode-languageserver-textdocument
+npm i cspell-lib
+
+bun build ./main.ts --compile --outfile cspell-lsp
+mv ./cspell-lsp ~/.local/bin
 ```
 
 Get version from [texlab releases](https://github.com/latex-lsp/texlab/releases).

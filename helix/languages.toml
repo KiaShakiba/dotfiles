@@ -86,7 +86,8 @@ auto-format = true
 
 [[language]]
 name = "latex"
-language-servers = ["texlab", "typos"]
+language-servers = ["texlab", "cspell"]
 
-[language-server.typos]
-command = "typos-lsp"
+[language-server.cspell]
+command = "cspell-lsp"
+args = ["--stdio", "--dictionary", "/usr/share/dict/american-english"]
