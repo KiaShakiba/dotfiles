@@ -86,7 +86,7 @@ auto-format = true
 
 [[language]]
 name = "latex"
-language-servers = ["textlab", "typos"]
+language-servers = ["texlab", "typos"]
 
 [language-server.typos]
 command = "typos-lsp"
