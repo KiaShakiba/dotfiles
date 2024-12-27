@@ -3,8 +3,6 @@ name = "rust"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "sed", args = ["s/[ \t]*$//"] }
 auto-format = true
-[language-server.rust-analyzer.config.check]
-command = "clippy"
 
 [[language]]
 name = "c"
@@ -86,7 +84,11 @@ auto-format = true
 
 [[language]]
 name = "latex"
+soft-wrap = { enable = true }
 language-servers = ["texlab", "cspell"]
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
 
 [language-server.cspell]
 command = "cspell-lsp"
