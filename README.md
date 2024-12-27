@@ -73,6 +73,8 @@ curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust
 cargo install --git https://github.com/latex-lsp/texlab --locked --tag <insert version here>
 ```
 
+Get version from [texlab releases](https://github.com/latex-lsp/texlab/releases).
+
 #### cspell-lsp
 Install Bun:
 `curl -fsSL https://bun.sh/install | bash`
@@ -90,8 +92,6 @@ npm i cspell-lib
 bun build ./main.ts --compile --outfile cspell-lsp
 mv ./cspell-lsp ~/.local/bin
 ```
-
-Get version from [texlab releases](https://github.com/latex-lsp/texlab/releases).
 
 ### Link the configuration directories
 ```
