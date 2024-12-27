@@ -22,7 +22,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ### Install Helix
 Download AppImage from:
-`https://github.com/helix-editor/helix/releases/latest/`
+[Helix AppImage](https://github.com/helix-editor/helix/releases/latest/)
 
 Then run:
 ```
@@ -32,7 +32,7 @@ sudo chmod u+x /usr/local/bin/hx
 
 ### Install nvim
 Download AppImage from:
-`https://github.com/neovim/neovim/releases/latest/download/nvim.appimage`
+[nvim appimage](https://github.com/neovim/neovim/releases/latest/download/nvim.appimage)
 
 Then run:
 ```
@@ -67,6 +67,24 @@ Install theme:
 ```
 curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz | zcat | sudo tee ~/.local/bin/rust-analyzer >/dev/null
 ```
+
+#### texlab
+```
+cargo install --git https://github.com/latex-lsp/texlab --locked --tag <insert version here>
+```
+
+#### typos-lsp
+Download latest release from:
+[typos-lsp releases](https://github.com/tekumara/typos-lsp/releases)
+
+Then run
+```
+tar -xvzf ./typos-lsp-*.tar.gz
+chmod +x ./typos-lsp
+sudo mv ./typos-lsp ~/.local/bin/
+```
+
+Get version from [texlab releases](https://github.com/latex-lsp/texlab/releases).
 
 ### Link the configuration directories
 ```
