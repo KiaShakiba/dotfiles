@@ -65,7 +65,9 @@ Install theme:
 
 #### rust_analyzer
 ```
-curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz | zcat | sudo tee ~/.local/bin/rust-analyzer >/dev/null
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz | zcat | tee ./rust-analyzer >/dev/null
+sudo mv ./rust-analyzer ~/.local/bin/rust-analyzer
+sudo chmod +x ~/.local/bin/rust-analyzer
 ```
 
 #### texlab
