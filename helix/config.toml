@@ -28,4 +28,4 @@ esc = ["keep_primary_selection", "collapse_selection"]
 [keys.normal.space]
 f = "file_picker_in_current_directory"
 F = "file_picker"
-e = "changed_file_picker"
+m = "changed_file_picker"
