@@ -20,6 +20,9 @@ git-ignore = false
 display-messages = true
 snippets = false
 
+[editor.search]
+smart-case = false
+
 [keys.normal]
 X = ["extend_line_above"]
 C = ["collapse_selection", "extend_to_line_end", "delete_selection", "insert_mode"]
