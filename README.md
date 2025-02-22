@@ -97,8 +97,8 @@ mv ./cspell-lsp ~/.local/bin
 
 ### Link the configuration directories
 ```
-ln -s /path/to/dotfiles/tmux ~/.config/tmux
-ln -s /path/to/dotfiles/yazi ~/.config/yazi
-ln -s /path/to/dotfiles/helix ~/.config/helix
-ln -s /path/to/dotfiles/nvim ~/.config/nvim
+ln -s /path/to/dotfiles/tmux ~/.config/
+ln -s /path/to/dotfiles/yazi ~/.config/
+ln -s /path/to/dotfiles/helix ~/.config/
+ln -s /path/to/dotfiles/nvim ~/.config/
 ```
