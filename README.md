@@ -17,6 +17,16 @@ export PATH="$HOME/.local/bin:$PATH"
 ### Install FUSE
 `sudo apt install fuse`
 
+### Install NerdFont
+```
+mkdir -p ~/.local/share/fonts/NerdFonts
+mkdir font-tmp && cd font-tmp
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/UbuntuMono.tar.xz
+tar -xf UbuntuMono.tar.xz
+mv *.ttf ~/.local/share/fonts/NerdFonts/
+cd .. && rm -rf font-tmp
+```
+
 ### Install tmux
 `sudo apt install tmux`
 
