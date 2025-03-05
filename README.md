@@ -80,6 +80,11 @@ sudo mv ./rust-analyzer ~/.local/bin/rust-analyzer
 sudo chmod +x ~/.local/bin/rust-analyzer
 ```
 
+### protols
+```
+cargo install protols
+```
+
 #### texlab
 ```
 cargo install --git https://github.com/latex-lsp/texlab --locked --tag <insert version here>
