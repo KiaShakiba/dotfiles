@@ -23,10 +23,13 @@ echo $(which fish) | sudo tee -a /etc/shells
 chsh -s $(which fish)
 ```
 
-### Install omf and lambda
+### Install omf and packages
 ```
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
 omf install lambda
+omf install https://github.com/fabioantunes/fish-nvm
+omf install https://github.com/edc/bass
 ```
 
 ### Ensure `/usr/local/bin` is prioritized in path
