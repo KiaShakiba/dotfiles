@@ -16,6 +16,19 @@ sudo apt update
 sudo apt install fish
 ```
 
+### Change default login shell to fish
+```
+// this might not be necessary, so check the `/etc/shells` file first
+echo $(which fish) | sudo tee -a /etc/shells
+chsh -s $(which fish)
+```
+
+### Install omf and lambda
+```
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+omf install lambda
+```
+
 ### Ensure `/usr/local/bin` is prioritized in path
 Add to end of `.bashrc`
 ```
@@ -120,6 +133,7 @@ mv ./cspell-lsp ~/.local/bin
 
 ### Link the configuration directories
 ```
+ln -s /path/to/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s /path/to/dotfiles/tmux ~/.config/
 ln -s /path/to/dotfiles/yazi ~/.config/
 ln -s /path/to/dotfiles/helix ~/.config/
