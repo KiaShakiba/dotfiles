@@ -2,6 +2,13 @@
 My dotfiles (and extra tools)
 
 ## Installation
+### Install Fish Shell
+```
+sudo apt-add-repository ppa:fish-shell/release-4
+sudo apt update
+sudo apt install fish
+```
+
 ### Prepare dirs
 ```
 sudo mkdir -p ~/.local/bin
