@@ -51,6 +51,14 @@ mv *.ttf ~/.local/share/fonts/NerdFonts/
 cd .. && rm -rf font-tmp
 ```
 
+### Install zellij
+```
+curl -LO https://github.com/zellij-org/zellij/releases/latest/download/zellij-x86_64-unknown-linux-musl.tar.gz
+tar -xvzf zellij-x86_64-unknown-linux-musl.tar.gz
+rm zellij-x86_64-unknown-linux-musl.tar.gz
+sudo mv ./zellij /usr/local/bin/zellij
+```
+
 ### Install tmux
 `sudo apt install tmux`
 
@@ -137,6 +145,7 @@ mv ./cspell-lsp ~/.local/bin
 ### Link the configuration directories
 ```
 ln -s /path/to/dotfiles/fish/config.fish ~/.config/fish/config.fish
+ln -s /path/to/dotfiles/zellij ~/.config/
 ln -s /path/to/dotfiles/tmux ~/.config/
 ln -s /path/to/dotfiles/yazi ~/.config/
 ln -s /path/to/dotfiles/helix ~/.config/
