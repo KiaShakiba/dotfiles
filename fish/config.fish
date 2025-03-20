@@ -8,3 +8,7 @@ function y
     end
     rm -f -- "$tmp"
 end
+
+function z
+    zellij $argv
+end
