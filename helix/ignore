@@ -37,3 +37,6 @@ package-lock.json
 *.run.xml
 *.bbl
 *.blg
+
+# Python
+/__pycache__/
