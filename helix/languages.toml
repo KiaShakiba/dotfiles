@@ -17,6 +17,12 @@ formatter = { command = "sed", args = ["s/[ \t]*$//"] }
 auto-format = true
 
 [[language]]
+name = "go"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "sed", args = ["s/[ \t]*$//"] }
+auto-format = true
+
+[[language]]
 name = "zig"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "sed", args = ["s/[ \t]*$//"] }
