@@ -112,6 +112,11 @@ sudo mv ./rust-analyzer ~/.local/bin/rust-analyzer
 sudo chmod +x ~/.local/bin/rust-analyzer
 ```
 
+### gopls
+```
+sudo apt install gopls
+```
+
 ### protols
 ```
 cargo install protols
