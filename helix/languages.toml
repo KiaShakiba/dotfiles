@@ -96,6 +96,12 @@ auto-format = true
 language-servers = ["pylsp"]
 
 [[language]]
+name = "ruby"
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "sed", args = ["s/[ \t]*$//"] }
+auto-format = true
+
+[[language]]
 name = "svelte"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "sed", args = ["s/[ \t]*$//"] }
