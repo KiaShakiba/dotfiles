@@ -9,6 +9,11 @@ sudo mkdir -p ~/.local/bin
 mkdir -p ~/.config
 ```
 
+### Install Ghostty
+```
+sudo snap install ghostty --classic
+```
+
 ### Install Fish Shell
 ```
 sudo apt-add-repository ppa:fish-shell/release-4
@@ -149,6 +154,7 @@ mv ./cspell-lsp ~/.local/bin
 
 ### Link the configuration directories
 ```
+ln -s /path/to/dotfiles/ghostty ~/.config/
 ln -s /path/to/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s /path/to/dotfiles/zellij ~/.config/
 ln -s /path/to/dotfiles/tmux ~/.config/
