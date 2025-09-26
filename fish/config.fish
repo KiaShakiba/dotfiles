@@ -1,4 +1,5 @@
 set fish_greeting
+set -gx RIO_CONFIG_HOME ~/.config/rio
 
 fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
