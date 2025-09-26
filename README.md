@@ -9,6 +9,19 @@ sudo mkdir -p ~/.local/bin
 mkdir -p ~/.config
 ```
 
+### Install Flatpak
+```
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+### Install Rio
+```
+sudo apt install ncurses-term
+flatpak install flathub com.rioterm.Rio
+```
+
 ### Install Ghostty
 ```
 sudo snap install ghostty --classic
@@ -154,6 +167,7 @@ mv ./cspell-lsp ~/.local/bin
 
 ### Link the configuration directories
 ```
+ln -s /path/to/dotfiles/rio ~/.config/
 ln -s /path/to/dotfiles/ghostty ~/.config/
 ln -s /path/to/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s /path/to/dotfiles/zellij ~/.config/

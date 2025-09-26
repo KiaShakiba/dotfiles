@@ -1,0 +1,9 @@
+# Install theme from https://github.com/raphamorim/rio-terminal-themes
+theme = "Monokai Soda"
+
+[editor]
+program = "hx"
+
+[fonts]
+family = "UbuntuMono Nerd Font"
+size = 15
