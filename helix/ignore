@@ -15,6 +15,7 @@
 # Rust
 /target/
 Cargo.lock
+!.rustfmt.toml
 
 # Node
 package-lock.json
