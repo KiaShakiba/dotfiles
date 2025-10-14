@@ -175,4 +175,5 @@ ln -s /path/to/dotfiles/tmux ~/.config/
 ln -s /path/to/dotfiles/yazi ~/.config/
 ln -s /path/to/dotfiles/helix ~/.config/
 ln -s /path/to/dotfiles/nvim ~/.config/
+ln -s /path/to/dotfiles/.rustfmt.toml
 ```
