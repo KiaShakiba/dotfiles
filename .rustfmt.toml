@@ -16,3 +16,6 @@ overflow_delimited_expr = true
 struct_lit_single_line = false
 use_field_init_shorthand = true
 wrap_comments = true
+
+# enum_discrim_align_threshold = 20
+# struct_field_align_threshold = 20

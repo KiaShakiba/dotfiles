@@ -5,6 +5,8 @@ set fish_greeting
 fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
 
+zoxide init --cmd cd fish | source
+
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"

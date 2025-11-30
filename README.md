@@ -27,6 +27,21 @@ flatpak install flathub com.rioterm.Rio
 sudo snap install ghostty --classic
 ```
 
+### Install fzf
+Download latest from:
+[fzf](https://github.com/junegunn/fzf/releases/latest)
+
+Then run:
+```
+tar -xvzf ./*.tar.gz
+sudo mv ./fzf /usr/local/bin/fzf
+```
+
+### Install zoxide
+```
+cargo install zoxide --locked
+```
+
 ### Install Fish Shell
 ```
 sudo apt-add-repository ppa:fish-shell/release-4
@@ -99,9 +114,6 @@ Then run:
 sudo mv ./nvim.appimage /usr/local/bin/nvim
 sudo chmod u+x /usr/local/bin/nvim
 ```
-
-### Install fzf
-`sudo apt install fzf`
 
 ### Install yazi
 `cargo install --locked yazi-fm yazi-cli`
