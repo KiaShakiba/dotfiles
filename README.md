@@ -133,6 +133,10 @@ function y() {
 Install theme:
 `ya pack -a sanjinso/monokai-vibrant`
 
+### Install DBeaver
+Download latest from:
+[DBeaver](https://github.com/dbeaver/dbeaver/releases/latest)
+
 ### Install LSPs
 
 #### rust_analyzer
