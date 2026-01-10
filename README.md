@@ -116,6 +116,9 @@ sudo chmod u+x /usr/local/bin/nvim
 ```
 
 ### Install yazi
+`cargo install --force yazi-build`
+
+Old install method:
 `cargo install --locked yazi-fm yazi-cli`
 
 Add shell wrapper for `y` to `.bashrc`:
