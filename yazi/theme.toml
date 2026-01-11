@@ -3,4 +3,5 @@ dark = "monokai-vibrant"
 light = "monokai-vibrant"
 
 [indicator]
+padding = { open = "█", close = "█" }
 preview = { underline = false }
