@@ -19,3 +19,10 @@ end
 function z
     zellij $argv
 end
+
+function ssh
+    set -l orig_term $TERM
+    set -x TERM xterm-256color
+    command ssh $argv
+    set -x TERM $orig_term
+end
