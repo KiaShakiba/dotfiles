@@ -2,5 +2,5 @@
 dark = "monokai-vibrant"
 light = "monokai-vibrant"
 
-[mgr]
-preview_hovered = { underline = false }
+[indicator]
+preview = { underline = false }
