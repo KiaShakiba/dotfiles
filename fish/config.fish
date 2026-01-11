@@ -2,8 +2,8 @@ set fish_greeting
 # set -gx RIO_CONFIG_HOME ~/.config/rio
 # set -gu RIO_CONFIG_HOME
 
-fish_add_path ~/.local/bin
-fish_add_path ~/.cargo/bin
+fish_add_path -Ppm ~/.cargo/bin
+fish_add_path -Ppm ~/.local/bin
 
 zoxide init --cmd cd fish | source
 
