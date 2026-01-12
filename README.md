@@ -92,6 +92,11 @@ rm zellij-x86_64-unknown-linux-musl.tar.gz
 sudo mv ./zellij /usr/local/bin/zellij
 ```
 
+### Install ripgrep
+```
+cargo install ripgrep
+```
+
 ### Install tmux
 `sudo apt install tmux`
 
