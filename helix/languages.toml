@@ -1,9 +1,4 @@
 [[language]]
-name = "rust"
-indent = { tab-width = 4, unit = "\t" }
-auto-format = true
-
-[[language]]
 name = "c"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "sed", args = ["s/[ \t]*$//"] }
@@ -11,12 +6,6 @@ auto-format = true
 
 [[language]]
 name = "cpp"
-indent = { tab-width = 4, unit = "\t" }
-formatter = { command = "sed", args = ["s/[ \t]*$//"] }
-auto-format = true
-
-[[language]]
-name = "go"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "sed", args = ["s/[ \t]*$//"] }
 auto-format = true
@@ -133,9 +122,6 @@ language-servers = ["texlab", "cspell"]
 
 [[language]]
 name = "protobuf"
-indent = { tab-width = 4, unit = "\t" }
-formatter = { command = "sed", args = ["s/[ \t]*$//"] }
-auto-format = true
 language-servers = ["protols"]
 
 [language-server.rust-analyzer.config.check]

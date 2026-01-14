@@ -2,6 +2,7 @@
 !.git/
 !.gitignore
 !.github
+!.gitlab
 !.env
 
 # Invalid files
