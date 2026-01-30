@@ -142,6 +142,11 @@ Install theme:
 Download latest from:
 [DBeaver](https://github.com/dbeaver/dbeaver/releases/latest)
 
+### Install typst
+```
+cargo install --locked typst-cli
+```
+
 ### Install LSPs
 
 #### rust_analyzer
@@ -151,12 +156,12 @@ sudo mv ./rust-analyzer ~/.local/bin/rust-analyzer
 sudo chmod +x ~/.local/bin/rust-analyzer
 ```
 
-### gopls
+#### gopls
 ```
 sudo apt install gopls
 ```
 
-### protols
+#### protols
 ```
 cargo install protols
 ```
