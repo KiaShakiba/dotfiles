@@ -72,7 +72,9 @@ export PATH="$HOME/.local/bin:$PATH"
 ```
 
 ### Install FUSE
-`sudo apt install fuse`
+```
+sudo apt install fuse
+```
 
 ### Install NerdFont
 ```
@@ -136,7 +138,9 @@ function y() {
 ```
 
 Install theme:
-`ya pack -a sanjinso/monokai-vibrant`
+```
+ya pack -a sanjinso/monokai-vibrant
+```
 
 ### Install DBeaver
 Download latest from:
@@ -164,6 +168,11 @@ sudo apt install gopls
 #### protols
 ```
 cargo install protols
+```
+
+#### tinymist
+```
+cargo install --git https://github.com/Myriad-Dreamin/tinymist --locked tinymist-cli
 ```
 
 #### texlab

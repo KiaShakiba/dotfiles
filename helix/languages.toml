@@ -121,6 +121,10 @@ auto-format = true
 language-servers = ["texlab", "cspell"]
 
 [[language]]
+name = "typst"
+soft-wrap = { enable = true }
+
+[[language]]
 name = "protobuf"
 language-servers = ["protols"]
 
