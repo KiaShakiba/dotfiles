@@ -131,6 +131,9 @@ language-servers = ["protols"]
 [language-server.rust-analyzer.config.check]
 command = "clippy"
 
+[language-server.rust-analyzer.config.cargo]
+features = "all"
+
 [language-server.protols]
 command = "protols"
 
