@@ -1,0 +1,27 @@
+#!/bin/fish
+
+set tag_version $argv[1]
+
+if test -z "$tag_version"
+    echo "[error]: no version provided"
+    return 1
+end
+
+set url https://github.com/raphamorim/rio/releases/download/v{$tag_version}/rioterm_{$tag_version}_amd64_x11.deb
+set file_name rioterm_{$tag_version}_amd64_x11.deb
+
+set dir (mktemp -d)
+cd $dir
+
+echo "[info]: downloading $file_name"
+
+curl -LOfs $url
+set curl_status $status
+
+if test $curl_status -ne 0
+    echo "[error]: could not download file"
+end
+
+sudo dpkg -i $file_name
+
+rm -rf $dir
