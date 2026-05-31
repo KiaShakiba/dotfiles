@@ -12,8 +12,8 @@ if not string match -rq '^\d+\.\d+\.\d+$' -- $tag_version
     return 1
 end
 
-set url https://github.com/raphamorim/rio/releases/download/v{$tag_version}/rioterm_{$tag_version}_amd64_x11.deb
-set file_name rioterm_{$tag_version}_amd64_x11.deb
+set file_name fzf-{$tag_version}-linux_amd64.tar.gz
+set url https://github.com/junegunn/fzf/releases/download/v{$tag_version}/{$file_name}
 
 set dir (mktemp -d)
 cd $dir
@@ -29,6 +29,16 @@ if test $curl_status -ne 0
     return 1
 end
 
-sudo dpkg -i $file_name
+echo "[info]: extracting $file_name"
+tar -xzf "$file_name"
+set tar_status $status
+
+if test $tar_status -ne 0
+    echo "[error]: could not extract file"
+    rm -rf $dir
+    return 1
+end
+
+sudo mv ./fzf /usr/local/bin/fzf
 
 rm -rf $dir

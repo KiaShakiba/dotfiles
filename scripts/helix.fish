@@ -12,8 +12,8 @@ if not string match -rq '^\d+\.\d+\.\d+$' -- $tag_version
     return 1
 end
 
-set url https://github.com/raphamorim/rio/releases/download/v{$tag_version}/rioterm_{$tag_version}_amd64_x11.deb
-set file_name rioterm_{$tag_version}_amd64_x11.deb
+set file_name helix-{$tag_version}-x86_64.AppImage
+set url https://github.com/helix-editor/helix/releases/download/{$tag_version}/{$file_name}
 
 set dir (mktemp -d)
 cd $dir
@@ -29,6 +29,7 @@ if test $curl_status -ne 0
     return 1
 end
 
-sudo dpkg -i $file_name
+sudo mv "$file_name" /usr/local/bin/hx
+sudo chmod u+x /usr/local/bin/hx
 
 rm -rf $dir

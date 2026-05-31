@@ -137,9 +137,10 @@ function y() {
 }
 ```
 
-Install theme:
+Install themes:
 ```
 ya pack -a sanjinso/monokai-vibrant
+ya pkg add dangooddd/kanagawa
 ```
 
 ### Install DBeaver

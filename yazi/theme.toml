@@ -1,6 +1,6 @@
 [flavor]
-dark = "monokai-vibrant"
-light = "monokai-vibrant"
+dark = "kanagawa"
+light = "kanagawa"
 
 [indicator]
 padding = { open = "█", close = "█" }
