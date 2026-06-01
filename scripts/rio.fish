@@ -12,8 +12,8 @@ if not string match -rq '^\d+\.\d+\.\d+$' -- $tag_version
     return 1
 end
 
-set url https://github.com/raphamorim/rio/releases/download/v{$tag_version}/rioterm_{$tag_version}_amd64_x11.deb
 set file_name rioterm_{$tag_version}_amd64_x11.deb
+set url https://github.com/raphamorim/rio/releases/download/v{$tag_version}/{$file_name}
 
 set dir (mktemp -d)
 cd $dir
