@@ -4,7 +4,7 @@ deps = []
 [[flavor.deps]]
 use = "sanjinso/monokai-vibrant"
 rev = "8b68223"
-hash = ""
+hash = "7cf995e2185a45b5141ce807b7eced60"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"

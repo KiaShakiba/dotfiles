@@ -2,4 +2,4 @@
 
 cargo install --force yazi-build
 
-ya pkg add dangooddd/kanagawa
+ya pkg install
