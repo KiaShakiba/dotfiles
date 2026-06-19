@@ -7,6 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diff_view_style": "unified",
+  "vim": {
+    "toggle_relative_line_numbers": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "title_bar": {
+    "show_menus": false
+  },
   "completion_menu_item_kind": "symbol",
   "relative_line_numbers": "enabled",
   "tab_size": 4,

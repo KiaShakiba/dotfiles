@@ -41,5 +41,10 @@
     "unbind": {
       "ctrl-p": "editor::ContextMenuPrevious"
     }
+  },
+  {
+    "bindings": {
+      "ctrl-w k": "terminal_panel::ToggleFocus"
+    }
   }
 ]
