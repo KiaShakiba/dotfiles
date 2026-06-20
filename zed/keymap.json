@@ -46,5 +46,11 @@
     "bindings": {
       "ctrl-w k": "terminal_panel::ToggleFocus"
     }
+  },
+  {
+    "context": "!in_replace",
+    "bindings": {
+      "escape": "buffer_search::Dismiss"
+    }
   }
 ]
