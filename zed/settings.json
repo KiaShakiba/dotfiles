@@ -8,9 +8,10 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "gutter": {
+    "bookmarks": false,
     "breakpoints": false
   },
-  "diff_view_style": "unified",
+  "diff_view_style": "split",
   "vim": {
     "toggle_relative_line_numbers": true
   },
