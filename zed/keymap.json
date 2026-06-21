@@ -6,51 +6,69 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
-  {
-    "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
-    },
-  },
-  {
-    "context": "Editor && vim_mode == insert",
-    "bindings": {
-      // "j k": "vim::NormalBefore"
-    },
-  },
-  {
-    "context": "Editor && (showing_code_actions || showing_completions)",
-    "bindings": {
-      "tab": "editor::ContextMenuNext"
-    }
-  },
-  {
-    "context": "Editor && (showing_code_actions || showing_completions)",
-    "unbind": {
-      "ctrl-n": "editor::ContextMenuNext"
-    }
-  },
-  {
-    "context": "Editor && (showing_code_actions || showing_completions)",
-    "bindings": {
-      "shift-tab": "editor::ContextMenuPrevious"
-    }
-  },
-  {
-    "context": "Editor && (showing_code_actions || showing_completions)",
-    "unbind": {
-      "ctrl-p": "editor::ContextMenuPrevious"
-    }
-  },
-  {
-    "bindings": {
-      "ctrl-w k": "terminal_panel::ToggleFocus"
-    }
-  },
-  {
-    "context": "!in_replace",
-    "bindings": {
-      "escape": "buffer_search::Dismiss"
-    }
-  }
+	{
+		"context": "Workspace",
+		"bindings": {
+			// "shift shift": "file_finder::Toggle"
+		},
+	},
+	{
+		"context": "Editor && vim_mode == insert",
+		"bindings": {
+			// "j k": "vim::NormalBefore"
+		},
+	},
+	{
+		"context": "Editor && (showing_code_actions || showing_completions)",
+		"bindings": {
+			"tab": "editor::ContextMenuNext",
+		},
+	},
+	{
+		"context": "Editor && (showing_code_actions || showing_completions)",
+		"unbind": {
+			"ctrl-n": "editor::ContextMenuNext",
+		},
+	},
+	{
+		"context": "Editor && (showing_code_actions || showing_completions)",
+		"bindings": {
+			"shift-tab": "editor::ContextMenuPrevious",
+		},
+	},
+	{
+		"context": "Editor && (showing_code_actions || showing_completions)",
+		"unbind": {
+			"ctrl-p": "editor::ContextMenuPrevious",
+		},
+	},
+	{
+		"bindings": {
+			"ctrl-w k": "terminal_panel::ToggleFocus",
+		},
+	},
+	{
+		"context": "!in_replace",
+		"bindings": {
+			"escape": "buffer_search::Dismiss",
+		},
+	},
+	{
+		"context": "Terminal",
+		"bindings": {
+			"ctrl-t": "workspace::NewTerminal",
+		},
+	},
+	{
+		"context": "Workspace",
+		"unbind": {
+			"ctrl-p": "file_finder::Toggle",
+		},
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"ctrl-p": "projects::OpenRecent",
+		},
+	},
 ]
