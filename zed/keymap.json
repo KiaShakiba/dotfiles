@@ -71,4 +71,22 @@
 			"ctrl-p": "projects::OpenRecent",
 		},
 	},
+	{
+		"context": "Workspace",
+		"unbind": {
+			"ctrl-r": "projects::OpenRecent",
+		},
+	},
+	{
+		"context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
+		"unbind": {
+			"ctrl-r": "vim::Redo",
+		},
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"ctrl-r": "terminal_panel::Toggle",
+		},
+	},
 ]
