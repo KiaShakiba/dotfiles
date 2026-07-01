@@ -23,6 +23,7 @@
     "button": false
   },
   "title_bar": {
+    "show_sign_in": false,
     "show_menus": false
   },
   "completion_menu_item_kind": "symbol",
