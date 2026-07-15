@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_signature_help_after_edits": true,
+  "auto_signature_help": false,
   "git": {
     "inline_blame": {
       "location": "status_bar"
