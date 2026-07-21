@@ -7,6 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "languages": {
+    "CSS": {
+      "format_on_save": "on"
+    },
+    "SCSS": {
+      "format_on_save": "on"
+    },
+    "JavaScript": {
+      "format_on_save": "on"
+    },
+    "TypeScript": {
+      "format_on_save": "on"
+    },
+    "Svelte": {
+      "format_on_save": "on"
+    }
+  },
   "show_signature_help_after_edits": true,
   "auto_signature_help": false,
   "git": {
