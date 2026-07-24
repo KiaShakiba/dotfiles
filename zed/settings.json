@@ -21,6 +21,14 @@
       "format_on_save": "on"
     },
     "Svelte": {
+      "format_on_save": "on",
+      "formatter": "prettier",
+      "prettier": {
+		"allowed": true,
+		"plugins": ["prettier-plugin-svelte"],
+      }
+    },
+    "JSON": {
       "format_on_save": "on"
     }
   },
