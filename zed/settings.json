@@ -33,7 +33,7 @@
     }
   },
   "show_signature_help_after_edits": true,
-  "auto_signature_help": false,
+  "auto_signature_help": true,
   "git": {
     "inline_blame": {
       "location": "status_bar"
