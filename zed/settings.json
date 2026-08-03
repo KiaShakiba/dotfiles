@@ -45,7 +45,7 @@
   },
   "gutter": {
     "bookmarks": false,
-    "breakpoints": false
+    "breakpoints": true
   },
   "diff_view_style": "split",
   "vim": {
