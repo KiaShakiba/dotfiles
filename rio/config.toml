@@ -4,6 +4,9 @@ theme = "Monokai Soda"
 [editor]
 program = "hx"
 
+[navigation]
+hide-if-single = true
+
 [fonts]
 family = "UbuntuMono Nerd Font"
 size = 15

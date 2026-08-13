@@ -89,4 +89,22 @@
 			"ctrl-r": "terminal_panel::Toggle",
 		},
 	},
+	{
+		"context": "VimControl && !menu",
+		"unbind": {
+			"ctrl-t": "pane::GoToOlderTag"
+		}
+	},
+	{
+		"context": "VimControl && !menu",
+		"bindings": {
+			"ctrl-t": "tab_switcher::ToggleAll"
+		}
+	},
+	{
+		"context": "Terminal",
+		"bindings": {
+			"ctrl-n": "workspace::NewTerminal"
+		}
+	}
 ]
